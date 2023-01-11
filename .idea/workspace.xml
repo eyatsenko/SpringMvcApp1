@@ -9,8 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ccbbf3-27be-4cb8-b61f-cf2d429266b1" name="Changes" comment="First commit. Controller has been created.">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/hello_world.html" afterDir="false" />
+    <list default="true" id="b4ccbbf3-27be-4cb8-b61f-cf2d429266b1" name="Changes" comment="hello_world.html has been fixed.">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yatsenko/springcourse/config/MySpringMvcDispatcherServletInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yatsenko/springcourse/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +25,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -203,7 +213,7 @@
       <workItem from="1673453351173" duration="889000" />
       <workItem from="1673454247985" duration="777000" />
       <workItem from="1673455032896" duration="181000" />
-      <workItem from="1673455221395" duration="817000" />
+      <workItem from="1673455221395" duration="2326000" />
     </task>
     <task id="LOCAL-00001" summary="First commit. Controller has been created.">
       <created>1673455471450</created>
@@ -212,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673455471450</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hello_world.html has been fixed.">
+      <created>1673456095556</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1673456095556</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -220,6 +237,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit. Controller has been created." />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit. Controller has been created." />
+    <MESSAGE value="hello_world.html has been fixed." />
+    <option name="LAST_COMMIT_MESSAGE" value="hello_world.html has been fixed." />
   </component>
 </project>
