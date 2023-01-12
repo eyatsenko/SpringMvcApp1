@@ -9,13 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ccbbf3-27be-4cb8-b61f-cf2d429266b1" name="Changes" comment="MySpringMvcDispatcherServletInitializer.java file was added.&#10;SpringConfig.java was added.&#10;Dependency for javax.servlet is added to pom.xml;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/yatsenko/springcourse/controllers/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b4ccbbf3-27be-4cb8-b61f-cf2d429266b1" name="Changes" comment="added SecondController.java and several html pages.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContextMVC.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yatsenko/springcourse/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yatsenko/springcourse/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yatsenko/springcourse/controllers/SecondController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yatsenko/springcourse/controllers/SecondController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +65,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/apache-tomcat-9.0.70&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Documents/IdeaProjects/SpringMvcApp1/src/main/webapp/WEB-INF/views/first&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -79,6 +77,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Documents\IdeaProjects\SpringMvcApp1\src\main\webapp\WEB-INF\views\first" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="openRunningConfigInTab" value="true" />
   </component>
@@ -217,6 +220,7 @@
       <workItem from="1673455032896" duration="181000" />
       <workItem from="1673455221395" duration="817000" />
       <workItem from="1673522840019" duration="648000" />
+      <workItem from="1673524026173" duration="1802000" />
     </task>
     <task id="LOCAL-00001" summary="First commit. Controller has been created.">
       <created>1673455471450</created>
@@ -232,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673522624557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added SecondController.java and several html pages.">
+      <created>1673525186868</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673525186868</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +252,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit. Controller has been created." />
     <MESSAGE value="MySpringMvcDispatcherServletInitializer.java file was added.&#10;SpringConfig.java was added.&#10;Dependency for javax.servlet is added to pom.xml;" />
-    <option name="LAST_COMMIT_MESSAGE" value="MySpringMvcDispatcherServletInitializer.java file was added.&#10;SpringConfig.java was added.&#10;Dependency for javax.servlet is added to pom.xml;" />
+    <MESSAGE value="added SecondController.java and several html pages." />
+    <option name="LAST_COMMIT_MESSAGE" value="added SecondController.java and several html pages." />
   </component>
 </project>
