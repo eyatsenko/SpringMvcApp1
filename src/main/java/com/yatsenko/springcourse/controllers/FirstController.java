@@ -19,7 +19,7 @@ public class FirstController {
 
 
         if (name != null && surname != null) {
-        model.addAttribute("message", "Hello, " + name + " " + surname);
+            model.addAttribute("message", "Hello, " + name + " " + surname);
         }
 
 //            System.out.println("Hello, " + name + " " + surname);
@@ -30,5 +30,36 @@ public class FirstController {
     @GetMapping("/goodbye")
     public String goodByePage() {
         return "first/goodbye";
+    }
+
+    @GetMapping("/calculator")
+    public String calculator(@RequestParam("a") int a, @RequestParam("b") int b,
+                             @RequestParam("action") String action, Model model) {
+
+        double result;
+
+        switch (action) {
+            case "multiplication": {
+                result = a * b;
+                break;
+            }
+            case "division": {
+                result = a / (double) b;
+                break;
+            }
+            case "subtraction": {
+                result = a - b;
+                break;
+            }
+            case "addition": {
+                result = a + b;
+                break;
+            }
+            default: result = 0;
+        }
+
+        model.addAttribute("result", result);
+
+        return "first/calculator";
     }
 }
